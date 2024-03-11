@@ -114,6 +114,27 @@ They are excellent projects, but **navi** remains unique in the following ways:
 - it's natural to write cheatsheets tailored to your needs
 - arguments are neither hardcoded nor a simple template
 
+
+## Development
+
+Build:
+
+```sh
+cargo build
+```
+
+Run:
+
+```sh
+./target/debug/navi
+```
+
+Run cargo with parameters:
+
+```sh
+cargo run -- <parameter>
+```
+
 ## Etymology
 
 [Navi](https://zelda.gamepedia.com/Navi) is a character from [The Legend of Zelda Ocarina of Time](https://zelda.gamepedia.com/Ocarina_of_Time) that provides [Link](https://zelda.gamepedia.com/Link) with a variety of clues to help him solve puzzles and make progress in his quest.
